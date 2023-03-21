@@ -2,3 +2,5 @@
 /server/world
 /server/logs
 /server/backup/*
+/server/versions
+/server/libraries
