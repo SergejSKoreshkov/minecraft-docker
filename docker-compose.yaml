@@ -4,9 +4,6 @@ services:
     restart: unless-stopped
     volumes:
       - ./vanilla/server:/app/server
-    environment:
-      EULA: "true"
     ports:
       - "25565:25565"
-    stdin_open: true 
-    tty: true
+      - "25575:25575"
